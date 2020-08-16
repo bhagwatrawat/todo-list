@@ -44,7 +44,6 @@ editHandler(value,todoindex){
   })
 
 }
-
 newItemHandler(e){
 
 
