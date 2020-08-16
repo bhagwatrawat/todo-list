@@ -1,0 +1,79 @@
+.title{
+
+  background-color: #3f3160;
+  min-height:500px;
+  width: 100%;
+  margin: 40px auto;
+  font-style: sans-serif;
+}
+
+#Form{
+  width:500px;
+  margin:0 auto;
+}
+h1{
+  color:olive;
+  font-style: sans-serif;
+  width:200px;
+  margin:30px auto;
+ box-shadow: 2px 2px 2px violet;
+  text-shadow: 2px 2px 2px yellow;
+}
+input{
+  outline:none;
+   border-radius: 10px;
+   border: 0;
+  color: orange;
+
+  background-color: rgba(27, 112, 137, 1);
+  box-shadow: inset 5px 5px 5px rgba(27, 90, 137, 1);
+  width:400px;
+  height:30px;
+  text-shadow: 1px 1px 20px white;
+  margin-right: 10px;
+  margin-top:20px;
+  transform: scale(1,1);
+  transition: transform .25s;
+}
+
+input::placeholder{
+  color: orange;
+}
+
+input:hover{
+  transform: scale(1.1,1.1);
+}
+button{
+  border-radius: 10px;
+  outline: none;
+  width:80px;
+  height:30px;
+  transform: scale(1,1);
+  transition: transform .25s;
+  background-color:rgba(202, 156, 24, 1);
+  border:0;
+}
+button:hover{
+  transform:scale(1.2,1.2);
+}
+
+p{
+  font-size: 20px;
+  color:orange;
+  text-shadow: 1px 1px 20px white;
+
+}
+
+.react-player{
+  position:fixed;
+  top:40px;
+  right:10px;
+  border:0;
+  box-shadow: 3px 10px 3px grey;
+  
+  transform:scale(1,1);
+  transition: transform 1s;
+}
+.react-player:hover{
+  transform:scale(1.1,1.1);
+}
